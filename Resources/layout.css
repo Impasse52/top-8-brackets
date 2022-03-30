@@ -1,0 +1,130 @@
+/* bracket placement */
+#bracket {
+    position: absolute;
+    left: 80px;
+    top: 330px;
+}
+
+/* sets */
+#winners-semis-1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#winners-semis-2 {
+    position: absolute;
+    left: 0px;
+    top: 165px;
+}
+
+#winners-final {
+    position: absolute;
+    left: 450px;
+    top: 80px;
+}
+
+#losers-eights-1 {
+    position: absolute;
+    left: 0px;
+    top: 400px;
+}
+
+#losers-eights-2 {
+    position: absolute;
+    left: 0px;
+    top: 565px;
+}
+
+#losers-quarters-1 {
+    position: absolute;
+    left: 450px;
+    top: 400px;
+}
+
+#losers-quarters-2 {
+    position: absolute;
+    left: 450px;
+    top: 565px;
+}
+
+#losers-semifinal {
+    position: absolute;
+    left: 900px;
+    top: 480px;
+}
+
+#losers-final {
+    position: absolute;
+    left: 1350px;
+    top: 480px;
+}
+
+#grand-finals {
+    position: absolute;
+    left: 900px;
+    top: 80px;
+}
+
+#grand-finals-reset {
+    position: absolute;
+    left: 1350px;
+    top: 80px;
+    display: none;
+}
+
+/* bracket separators */
+#ws1-wf {
+    position: absolute;
+    left: 389px;
+    top: 65px;
+}
+
+#ws2-wf {
+    position: absolute;
+    left: 389px;
+    top: 185px;
+}
+
+#wf-gf {
+    position: absolute;
+    left: 841px;
+    top: 136px;
+}
+
+#gf-gfr {
+    position: absolute;
+    left: 1290px;
+    top: 136px;  
+    display: none;
+}
+
+#le1-lq1 {
+    position: absolute;
+    left: 390px;
+    top: 456px;  
+}
+
+#le2-lq2 {
+    position: absolute;
+    left: 390px;
+    top: 621px;  
+}
+
+#lq1-ls {
+    position: absolute;
+    left: 841px;
+    top: 464px;
+}
+
+#lq2-ls {
+    position: absolute;
+    left: 841px;
+    top: 584px;
+}
+
+#ls-lf {
+    position: absolute;
+    left: 1290px;
+    top: 536px;
+}

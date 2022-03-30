@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Top 8 Brackets</title>
+    <link rel="stylesheet" href="gui.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="gui.js" defer></script>
+</head>
+
+<body>
+    <h1 id="header">Top 8 Brackets</h1>
+    <div id="set-section">
+        <!-- TODO: make round and game select elements dynamic -->
+        <select id="round">
+            <option value="winners-semis-1">Winners Semis Top</option>
+            <option value="winners-semis-2">Winners Semis Bot</option>
+            <option value="winners-final">Winners Final</option>
+            <option value="losers-eights-1">Losers Eights Top</option>
+            <option value="losers-eights-2">Losers Eights Bot</option>
+            <option value="losers-quarters-1">Losers Quarters Top</option>
+            <option value="losers-quarters-2">Losers Quarters Bot</option>
+            <option value="losers-semifinal">Losers Semifinal</option>
+            <option value="losers-final">Losers Final</option>
+            <option value="grand-finals">Grand Finals</option>
+            <option value="grand-finals-reset">Grand Finals Reset</option>
+        </select>
+        <select id="best-of">
+            <option value="3">Best of 3</option>
+            <option value="5">Best of 5</option>
+            <option value="7">Best of 7</option>
+        </select>
+        <select id="game">
+            <option value="Rivals of Aether">Rivals of Aether</option>
+            <option value="Super Smash Bros Melee">Super Smash Bros Melee</option>
+            <option value="Super Smash Bros Ultimate">Super Smash Bros Ultimate</option>
+        </select>
+    </div>
+    <div id="players-container">
+        <div id="p1-section">
+            <input type="button" id="player1-character">
+            <input type="text" id="player1-nickname" class="nickname" placeholder="Player 1">
+            <input type="number" id="player1-score" class="score" min="0" placeholder="3">
+        </div>
+        <div id="p2-section">
+            <input type="number" id="player2-score" class="score" min="0" placeholder="2">
+            <input type="text" id="player2-nickname" class="nickname" placeholder="Player 2">
+            <input type="button" id="player2-character">
+        </div>
+    </div>
+    <div id="update-section">
+        <input type="button" id="update-button" value="UPDATE">
+        <input type="button" id="reset-button" value="delete">
+    </div>
+
+    <div id="player1-character-selection-menu">
+        <table></table>
+    </div>
+    <div id="player2-character-selection-menu">
+        <table></table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+{
+  "name": "top8-bracket",
+  "version": "1.0.0",
+  "description": "An Electron app to easily visualize previews of Top 8 brackets, designed for competitive videogames' streamings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "app:dir": "electron-builder --dir --out=./",
+    "app:dist": "electron-builder"
+  },
+  "author": "Impasse52",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.1.2",
+    "electron-builder": "^22.14.13"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  },
+  "build": {
+    "appId": "top8.brackets",
+    "win": {
+      "target": "portable"
+    },
+    "extraResources": [
+      {
+        "from": "Resources",
+        "to": "../../Resources"
+      },
+      {
+        "from": "bracket.html",
+        "to": "../../bracket.html"
+      }
+    ]
+  }
+}

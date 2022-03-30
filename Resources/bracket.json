@@ -1,0 +1,148 @@
+{
+    "game": "Rivals of Aether",
+    "sets": {
+        "winners-semis-1": {
+            "bestOf": "3",
+            "player-1": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            },
+            "player-2": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            }
+        },
+        "winners-semis-2": {
+            "bestOf": "5",
+            "player-1": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            },
+            "player-2": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            }
+        },
+        "winners-final": {
+            "bestOf": "5",
+            "player-1": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            },
+            "player-2": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            }
+        },
+        "losers-eights-1": {
+            "bestOf": "3",
+            "player-1": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            },
+            "player-2": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            }
+        },
+        "losers-eights-2": {
+            "bestOf": "3",
+            "player-1": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            },
+            "player-2": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            }
+        },
+        "losers-quarters-1": {
+            "bestOf": "3",
+            "player-1": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            },
+            "player-2": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            }
+        },
+        "losers-quarters-2": {
+            "bestOf": "3",
+            "player-1": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            },
+            "player-2": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            }
+        },
+        "losers-semifinal": {
+            "bestOf": "3",
+            "player-1": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            },
+            "player-2": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            }
+        },
+        "losers-final": {
+            "bestOf": "3",
+            "player-1": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            },
+            "player-2": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            }
+        },
+        "grand-finals": {
+            "bestOf": "3",
+            "player-1": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            },
+            "player-2": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            }
+        },
+        "grand-finals-reset": {
+            "bestOf": "3",
+            "player-1": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            },
+            "player-2": {
+                "nickname": "",
+                "character": "None",
+                "score": ""
+            }
+        }
+    }
+}

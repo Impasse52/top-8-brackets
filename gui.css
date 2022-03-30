@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background: radial-gradient(circle, rgba(39, 48, 98, 1) 0%, rgba(1, 131, 139, 0.6558824213279062) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    overflow: hidden;
+}
+
+*:focus {
+    outline: rgba(0, 255, 255, 0.534) 3px solid;
+}
+
+input,
+select {
+    border-radius: 10px;
+    border: 0px solid;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    height: 35px;
+}
+
+input,
+select,
+button {
+    box-shadow: 2px 1px 1px black;
+}
+
+option {
+    text-align: center;
+}
+
+select {
+    height: 44px;
+    width: 37.1%;
+    -webkit-appearance: menulist-button;
+}
+
+#best-of {
+    width: 18%;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#players-container {
+    display: flex;
+}
+
+#p1-section,
+#p2-section {
+    margin-inline: auto;
+    width: 50%;
+}
+
+#player1-nickname,
+#player2-nickname {
+    width: 55%;
+}
+
+#player1-score,
+#player2-score {
+    width: 10%;
+    text-align: right;
+}
+
+#player1-character,
+#player2-character {
+    position: relative;
+    border-radius: 25px;
+    top: 21px;
+    width: 13%;
+    height: 70%;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+#update-button:hover,
+#reset-button:hover,
+#player1-nickname:hover,
+#player2-nickname:hover,
+#player1-score:hover,
+#player2-score:hover,
+#player1-character:hover,
+#player2-character:hover {
+    background-color: rgb(204, 204, 204)
+}
+
+#update-section {
+    margin-top: 37px;
+    text-align: center;
+}
+
+#update-button {
+    height: 45px;
+    width: 36.5%;
+    color: black;
+    letter-spacing: 1.5px;
+}
+
+#update-button:active {
+    background-color: rgb(157, 182, 207);
+}
+
+#reset-button {
+    width: 5%;
+    height: 32px;
+    font-style: normal;
+    font-family: 'Material Icons';
+}
+
+#player1-character-selection-menu {
+    position: absolute;
+    top: 160px;
+    left: 70px;
+    display: none;
+    padding: 10px;
+    width: 180px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 2px 1px 1px black;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+
+#player2-character-selection-menu {
+    position: absolute;
+    top: 160px;
+    right: 88px;
+    display: none;
+    padding: 10px;
+    width: 180px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 2px 1px 1px black;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+
+.character-selection-entry {
+    border-radius: 25px;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    padding: 5px;
+}
+
+.character-selection-entry:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.3);
+    border-radius: 25px;
+    border: transparent;
+}

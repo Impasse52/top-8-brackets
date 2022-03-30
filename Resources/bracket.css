@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(#e66465, #9198e5, #9198e5);
+    height: 1000px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: Pixellari;
+    src: url("Pixellari.ttf");
+}
+
+.set {
+    /* properties according to bg image */
+    width: 379px;
+    height: 134px;
+    background-image: url("round.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.set-row {
+    display: grid;
+    grid-template-columns: 1fr 8fr 2.5fr;
+    height: 58px;
+    align-items: center;
+    font-family: Pixellari;
+}
+
+.set-section {
+    margin: 0 auto;
+}
+
+.nickname {
+    color: white;
+    font-size: 40px;
+
+    /* reminder: also acts as padding for the nickname */
+    width: 95%; 
+
+    /* only useful to prevent text from taking unnecessary space */
+    height: 38px;
+}
+
+.score {
+    color: black;
+    font-family: Pixellari;
+    font-size: 40px;
+    text-align: center;
+    width: 18px;
+
+    /* only useful to prevent text from taking unnecessary space */
+    height: 38px;
+}
+
+.winning-score {
+    color: #df6870;
+}
+
+.character {
+    padding-left: 10px;
+    width: 48px;
+    height: 48px;
+}
+
+.set-separator {
+    height: 6px;
+}
