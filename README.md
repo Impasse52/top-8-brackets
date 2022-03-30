@@ -1,4 +1,4 @@
-# Top-8-Brackets
+# Top 8 Brackets
 An Electron app to easily control a view of your tournament's top 8 for Smash Bros. Ultimate, Smash Bros. Melee and Rivals of Aether tournaments!
 
 ![](https://i.imgur.com/zqfQPPk.png)
